@@ -74,8 +74,14 @@
         width: 10em;
       }
       @media (max-width: 375px) and (min-width: 200px) {
+     
         .content_img {
-          width: 19em !important;
+          width: 22em;
+        }
+      }
+      @media only screen and (max-width: 700px) {
+        .content_img {
+          width: 19em;
         }
         .content_container {
           margin: 15% 2%;
@@ -92,7 +98,7 @@
           font-size: .7em;
         }
       }
-      @media only screen and (max-width: 1024px) {
+      @media (min-width: 700px) and (max-width: 1024px) {
         .content_img {
           width: 37em;
         }
@@ -142,7 +148,7 @@
           <p>Device Color: <strong>Smartphone</strong></p>
           <p>Device Model: <strong>Galaxy 10</strong></p>
           <p>Payment Type: <strong>Black</strong></p>
-          <p>Cost Estimate: <strong>₦15000 - ₦25000</strong></p>
+          <p>Cost Estimate: <strong class="blue">₦15000 - ₦25000</strong></p>
         </div>
         <div style="clear:both"></div>
         <p><strong>Additional Details</strong></p>
